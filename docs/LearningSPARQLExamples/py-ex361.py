@@ -26,8 +26,8 @@ sparql.setReturnFormat(JSON)
 results = sparql.query().convert()
 
 if (len(results["results"]["bindings"]) == 0):
-  print "No results found."
+  print("No results found.")
 else:
   for result in results["results"]["bindings"]:
-      print result["actorName"]["value"]
+      print(result["actorName"]["value"])
 

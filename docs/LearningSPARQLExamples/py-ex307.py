@@ -3,5 +3,5 @@
 import hashlib
 m = hashlib.sha1()
 m.update("richard49@hotmail.com")
-print m.hexdigest()
+print(m.hexdigest())
 

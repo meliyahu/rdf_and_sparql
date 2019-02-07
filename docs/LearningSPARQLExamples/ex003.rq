@@ -1,0 +1,10 @@
+# filename: ex003.rq
+
+PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
+
+SELECT ?craigEmail ?craigHomeTel
+WHERE
+{ 
+    ab:craig ab:email ?craigEmail . 
+    ab:craig ab:homeTel ?craigHomeTel . 
+}

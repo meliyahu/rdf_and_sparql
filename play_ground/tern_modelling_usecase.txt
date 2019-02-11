@@ -1,0 +1,25 @@
+1. As a developer I want to be able to understand web ontologies (OandM, skos, dc, rdfs, rdf, etc).
+
+2. As a developer I want to be able to understand the RDF data model.
+
+3. As a developer I want to be able to understand RDF data storage formats (e.g. TTL, n3, etc)
+
+4. As a developer I want to be able to understand and generate TDB database storage system.
+
+5. As a developer I want to be able to understand SPARQL RDF query language.
+
+6. As a developer I want to be able to understand and install Apache Jena Fuseki (SPARQL server)
+
+7. As a developer I want to be able to issue SPARQL queries to the Fuseki server (or Jena TDB or use Apache ARQ)
+
+8. As a developer I want to be able to understand TERN plot data modelling (as designed and described by Simon Cox)
+
+9. As a developer I want to be able to code Python programs/scripts to generate SQL queries to relational databases(Tern plot data sources) to produce data 
+which adhere to the Tern plot data model (Simon modelling) and produce RDF TTL files (and load these TTL files to a TDB storage or relational database).
+
+10. As a developer I want to be able to generate business SPARQL queries to query Tern plot data TTL files (or TDB) to produce client specific data
+
+11. As a developer I want to be able to write Phyton (Flask) APIs with business specific endpoints for applications
+
+12. As a developer I want to be able to write Python front-end applications to display rich Tern plot data (which feed from
+the Python API)

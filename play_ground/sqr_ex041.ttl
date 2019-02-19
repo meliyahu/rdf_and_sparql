@@ -4,9 +4,10 @@ ab:i0432 ab:firstName "Richard" ;
         ab:lastName "Mutt" ;
         ab:homeTel "(229) 276-5135" ;
         ab:email "richard49@hotmail.com" ;
-        ab:address _:b0 .
-_:b0    ab:postalCode "49345" ;
-        ab:city "Springfield" ;
-        ab:streetAddress "32 Main St." ;
-        ab:region "Connecticut" .
-    
+        ab:address
+        [
+          ab:postalCode "49345" ;
+          ab:city "Springfield" ;
+          ab:streetAddress "32 Main St." ;
+          ab:region "Connecticut"
+        ] . 

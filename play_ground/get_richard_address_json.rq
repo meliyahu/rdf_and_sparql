@@ -1,0 +1,17 @@
+#PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
+
+JSON {
+    "street": ?street,
+    "city": ?city,
+    "postalCode": ?postalCode
+}
+WHERE 
+{
+    #?s ?p ?o .
+    ?s ab:firstName "Richard" .
+    ?s ab:address ?o .
+    ?o ab:streetAddress ?street .
+    ?o ab:city ?city .
+    ?o ab:postalCode ?postalCode .
+}

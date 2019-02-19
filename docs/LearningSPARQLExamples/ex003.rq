@@ -2,7 +2,8 @@
 
 PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
 
-SELECT ?craigEmail ?craigHomeTel
+#SELECT ?craigEmail ?craigHomeTel
+SELECT *
 WHERE
 { 
     ab:craig ab:email ?craigEmail . 

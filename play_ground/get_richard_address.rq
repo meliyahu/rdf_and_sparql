@@ -1,0 +1,14 @@
+#PREFIX ab: <http://learningsparql.com/ns/addressbook#>
+PREFIX ab: <http://learningsparql.com/ns/addressbook#> 
+
+
+SELECT ?street ?city ?postalCode 
+WHERE 
+{
+    #?s ?p ?o .
+    ?s ab:firstName "Richard" .
+    ?s ab:address ?o .
+    ?o ab:streetAddress ?street .
+    ?o ab:city ?city .
+    ?o ab:postalCode ?postalCode .
+}
